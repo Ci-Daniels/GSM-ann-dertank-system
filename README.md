@@ -6,12 +6,9 @@ The objective of this project is to develop an automated system for monitoring t
 
 ### SYSTEM COMPONENTS
 -SIM800L GSM/GPRS module 
--LM1117T-3.3V voltage regulator
 -MP1584en dc-dc converter
--Water level sensor
 -Ultrasonic sensor
 -Jumper wires
--2 capacitors 10uF/50V
 
 ### SIM800L GSM/GPRS module 
 -Supply voltage: 3.8V - 4.2V.
@@ -22,11 +19,6 @@ The objective of this project is to develop an automated system for monitoring t
 -SIM card socket: microSIM (bottom side)
 -Supported frequencies: Quad Band (850 / 950 / 1800 /1900 MHz)
 -Antenna connector: IPX.
-
-### LM1117T-3.3V voltage regulator
-  -Input voltage: 5-15V
-  -Output voltage: 3.3V
-  -Output current: 800 mA (max)
   
 ### MP1584en dc-dc converter
   -Input Voltage: 4.5 V to 28 V
@@ -38,20 +30,7 @@ The objective of this project is to develop an automated system for monitoring t
   -Operating Temperature: -45 ℃ to 85 ℃
   -Size: 22 x 17 x 4 mm
   
- ### Water level sensor
-  -Working Voltage: DC 3-5V
-  -Working Current: <20mA
-  -Sensor Type: Simulation
-  -Detection Area: 40 mm x 16 mm
-  -Manufacturing Process: FR4 double spray tin
-  -Fixed Hole Size: 3.2 mm
-  -Humanized Design: Half moon sag nonskid treatment
-  -Working Temperature: 10 °C to 30 °C
-  -Work Humidity: 10% to 90% without condensation
-  -Size: 65 mm x 20 mm x 8 mm
-  -Optional Accessories: 3 pin sensor connecting line,Arduino 328 controller,Sensor relay shield
-  
- ### HC-SRO4 Ultrasonic sensor
+### HC-SRO4 Ultrasonic sensor
   -Working Voltage: DC 5V
   -Working Current: 15mA
   -Working Frequency: 40Hz
